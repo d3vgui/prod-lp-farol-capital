@@ -207,6 +207,12 @@ ul {
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     color: var(--first-color);
   }
+
+  #menu .btn-cast {
+    padding: 16px 0px;
+    margin-left: 16px;
+    background-color: transparent;
+}
   #btn-mobile {
     display: flex;
     padding: 0.5rem 1rem;
