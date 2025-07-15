@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content=""> <!-- MANTER ENTRE 130 A 150 CARACTERES -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="/styles/settings.css">
+  <link rel="stylesheet" href="/styles/contact.css">
+  <link rel="stylesheet" href="/styles/responsive/resp-contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <script src="/js/header.js" defer></script>
+  <script src="/js/menu.js" defer></script>
+  <script src="/js/hash.js" defer></script>
+  <script src="/js/contact-form.js" defer></script>
+  <title>Contato - Grupo Farol Capital</title>
+</head>
+
+<body>
+  <header>
+    <a id="logo" title="Logo" href="index.html"><img class="img-responsive" loading="lazy" title="Logo"
+        src="./images/logo-branco.webp" alt="Logo"></a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu">
+        <li>
+          <a class="header-line" title="Clique aqui para ser direcionado a página INÍCIO" href="index.html">INÍCIO</a>
+        </li>
+        <li>
+          <a class="header-line" title="Clique aqui para ser direcionado a página QUEM SOMOS" href="about-us.html">QUEM
+            SOMOS</a>
+        </li>
+        <li class="has-submenu">
+          <a class="header-line" title="Clique aqui para ver os tipos de serviço" href="#">NOSSOS SERVIÇOS <i
+              class="fa-solid fa-angle-down"></i></a>
+          <ul class="submenu">
+            <li><a href="services.html" title="Serviços para você">PARA VOCÊ</a></li>
+            <li><a href="services-business.html" title="Serviços para sua empresa">PARA SUA EMPRESA</a></li>
+            <li><a href="services-family.html" title="Serviços para sua família">PARA SUA FAMÍLIA</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="header-line" title="Clique aqui para ser direcionado a página CONTATO"
+            href="contact.html">CONTATO</a>
+        </li>
+        <li>
+          <a class="header-line" title="Clique aqui para ser direcionado a página BLOG" href="blog.html">BLOG</a>
+        </li>
+        <li>
+          <a class="btn-cast" title="Clique aqui para ser direcionado a página BLOG" href="index.html#section-five">FAROL
+            CAST <i class="fa-solid fa-microphone-lines"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="section-one">
+      <div class="container">
+        <div class="title-sec">
+          <span>CONTATO</span>
+          <h2>Lorem ipsum dolor sit amet.</h2>
+        </div>
+        <div class="content-sec-one">
+          <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+            <div class="left-content">
+              <div class="box">
+                <h2>INFORMAÇÕES DE CONTATO</h2>
+                <p>Preencha o formulário e nossa equipe retornará o contato em breve.</p>
+                <div class="contact">
+                  <span>Entre em contato</span>
+                  <ul>
+                    <a title="Clique aqui para entrar em contato via WhatsApp" href="">
+                      <li><i class="fa-brands fa-whatsapp"></i></li>
+                    </a>
+                    <a title="Clique aqui para fazer uma ligação" href="tel:">
+                      <li><i class="fa-solid fa-phone"></i></li>
+                    </a>
+                    <a title="Clique aqui para enviar um e-mail" href="mailto:">
+                      <li><i class="fa-solid fa-envelope"></i></li>
+                    </a>
+                  </ul>
+                </div>
+                <div class="social">
+                  <span>Redes sociais</span>
+                  <ul>
+                    <a title="Clique aqui para ir ao instagram" href="">
+                      <li><i class="fa-brands fa-instagram"></i></li>
+                    </a>
+                    <a title="Clique aqui para ir ao Facebook" href="">
+                      <li><i class="fa-brands fa-square-facebook"></i></li>
+                    </a>
+                    <a title="Clique aqui para ir ao X" href="">
+                      <li><i class="fa-brands fa-square-x-twitter"></i></li>
+                    </a>
+                    <a title="Clique aqui para ir ao LinkedIn" href="">
+                      <li><i class="fa-brands fa-linkedin"></i></li>
+                    </a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="right-content">
+              <form id="contactForm">
+                <label for="nome">Nome: <span>*</span></label>
+                <input type="text" id="nome" name="nome" required placeholder="Informe seu nome">
+
+                <label for="telefone">Telefone: <span>*</span></label>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(99) 99999-9999">
+
+                <label for="email">E-mail: <span>*</span></label>
+                <input type="email" id="email" name="email" required placeholder="seuemail@email.com">
+
+                <label for="estagio">Qual seu estágio de investimento? <span>*</span></label>
+                <select id="estagio" name="estagio" required>
+                  <option value="" disabled selected>Selecione uma opção</option>
+                  <option value="Inicial">Inicial</option>
+                  <option value="Cosntrução de patrimônio">Construção de patrimônio</option>
+                  <option value="Diversificação de investimentos">Diversificação de investimentos</option>
+                </select>
+
+                <label for="mensagem">Mensagem: <span>*</span></label>
+                <textarea id="mensagem" name="mensagem" rows="3" placeholder="Digite sua mensagem..." required></textarea>
+                <button type="submit">Enviar <i class="fa-solid fa-share"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="whats-button">
+    <a title="Clique aqui para entrar em contato via WhatsApp"
+      href="https://wa.me/5511977536235?text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es."><img
+        loading="lazy" src="./images/logo-wpp.webp" alt="WhatsApp"
+        title="Clique aqui para entrar em contato via WhatsApp"></a>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="content-footer">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+          <div class="logo-footer">
+            <a href="#section-one" title="Clique aqui para voltar ao início"><img class="img-responsive" loading="lazy"
+                src="./images/logo-dourado.webp" alt="Logo" title="Clique aqui para voltar ao início"></a>
+          </div>
+        </div>
+        <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 list-1">
+          <h3>INSTITUCIONAL</h3>
+          <ul>
+            <li>
+              <a title="Clique aqui para ser direcionado a página INÍCIO" href="index.html"><i
+                  class="fa-solid fa-chevron-right"></i>INÍCIO</a>
+            </li>
+            <li>
+              <a title="Clique aqui para ser direcionado a página QUEM SOMOS" href="about-us.html"><i
+                  class="fa-solid fa-chevron-right"></i>QUEM SOMOS</a>
+            </li>
+            <li>
+              <a title="Clique aqui para ser direcionado a página SERVIÇOS PARA VOCÊ" href="services.html"><i
+                  class="fa-solid fa-chevron-right"></i>SERVIÇOS PARA VOCÊ</a>
+            </li>
+            <li>
+              <a title="Clique aqui para ser direcionado a página SERVIÇOS PARA SUA EMPRESA" href="services-business.html"><i
+                  class="fa-solid fa-chevron-right"></i>SERVIÇOS PARA SUA EMPRESA</a>
+            </li>
+            <li>
+              <a title="Clique aqui para ser direcionado a página SERVIÇOS PARA SUA FAMÍLIA" href="services-family.html"><i
+                  class="fa-solid fa-chevron-right"></i>SERVIÇOS PARA SUA FAMÍLIA</a>
+            </li>
+            <li>
+              <a title="Clique aqui para ser direcionado a página CONTATO" href="contact.html"><i
+                  class="fa-solid fa-chevron-right"></i>CONTATO</a>
+            </li>
+            <li>
+              <a title="Clique aqui para ser direcionado a página BLOG" href="blog.html"><i
+                  class="fa-solid fa-chevron-right"></i>BLOG</a>
+            </li>
+            <li>
+              <a title="Clique aqui para ser direcionado a sessão FAROL CAST" href="#section-five"><i
+                  class="fa-solid fa-chevron-right"></i>FAROL CAST</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 list-1">
+          <h3>CONTATO</h3>
+          <ul>
+            <li>
+              <a title="Clique aqui para entrar em contato via WhatsApp"
+                href="https://wa.me/5511977536235?text=Ol%C3%A1%20Grupo%20Farol%20Capital!%20Estou%20vindo%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es!"><i
+                  class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            <li>
+              <a title="Clique aqui para fazer uma ligação" href="tel:"><i class="fa-solid fa-phone"></i></a>
+            </li>
+            <li>
+              <a title="Clique aqui para enviar um e-mail" href="mailto:"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 list-1">
+          <h3>SOCIAL</h3>
+          <ul>
+            <li>
+              <a title="Clique aqui para acessar o Instagram" href=""><i class="fa-brands fa-instagram"></i>@</a>
+            </li>
+            <li>
+              <a title="Clique aqui para acessar o Facebook" href=""><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+              <a title="Clique aqui para acessar o LinkedIn" href=""><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="dev">
+        <a target="_blank" title="Clique aqui para acessar o instagram da FuniUx Company"
+          href="https://www.instagram.com/funiuxcompany/"><i class="fa-brands fa-instagram"></i>Desenvolvido por FuniUx
+          Company</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

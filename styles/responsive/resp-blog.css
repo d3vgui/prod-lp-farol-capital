@@ -1,0 +1,13 @@
+@media (max-width: 991px) {
+  #section-one {
+    padding: 150px 0;
+  }
+
+  #section-one .card {
+    width: 100%;
+  }
+
+  #section-one .card .title {
+    height: 180px;
+  }
+}

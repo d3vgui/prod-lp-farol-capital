@@ -1,0 +1,16 @@
+@media (max-width: 991px){
+    #section-one .content-sec-one{
+        flex-direction: column-reverse;
+        margin-top: 45px;
+    }
+
+    #section-one .left-content{
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 575px){
+    #section-one form{
+        width: 80vw;
+    }
+}

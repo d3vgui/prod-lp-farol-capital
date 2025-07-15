@@ -1,0 +1,162 @@
+@media (max-width: 1199px) {
+  /* SECTION ONE */
+
+  #section-one .left-content h2 {
+    font-size: 30px;
+  }
+
+  /* SECTION INFO */
+
+  #section-info .box .content-box .counter {
+    font-size: 40px;
+  }
+
+  #section-info .box .content-box .label {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* SECTION FIVE */
+
+  #section-five .content-sec-five p {
+    width: 60%;
+  }
+}
+
+@media (max-width: 991px) {
+  /* SECTION ONE */
+
+  #section-one .content-sec-one {
+    padding: 300px 0;
+  }
+
+  /* SECTION INFO */
+
+  #section-info {
+    padding: 40px 0;
+  }
+
+  #section-info .content-sec-info .box {
+    height: 200px;
+    width: 100%;
+  }
+
+  #section-info .box .content-box {
+    padding: 10px;
+  }
+
+  /* SECTION TWO */
+
+  #section-two {
+    padding: 40px 0;
+  }
+
+  #section-two .right-content {
+    margin-top: 45px;
+  }
+
+  #section-two .right-content img {
+    height: 350px;
+  }
+
+  /* SECTION THREE */
+
+  #section-three {
+    padding: 40px 0;
+  }
+
+  #section-three .content-sec-three {
+    flex-direction: column-reverse;
+  }
+
+  #section-three .left-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION FOUR */
+
+  #section-four {
+    padding: 40px 0;
+  }
+
+  #section-four .right-content {
+    margin-top: 45px;
+  }
+
+  /* SECTION FIVE */
+
+  #section-five {
+    padding: 80px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #section-one .left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #section-one .left-content h2 {
+    font-size: 25px;
+  }
+
+  #section-one .btn-know-more {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* SECTION INFO */
+
+  #section-info .title-sec h2 {
+    font-size: 35px;
+  }
+
+  #section-info .content-sec-info .box {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #section-info .box #border {
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 1px solid #808080ad;
+    border-bottom: 1px solid #808080ad;
+  }
+
+  /* SECTION TWO */
+
+  #section-two .right-content {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+  }
+
+  #section-two .right-content img {
+    height: 200px;
+  }
+
+  /* SECTION THREE */
+
+  #section-three .swiper-slide {
+    height: auto;
+    padding: 20px;
+  }
+
+  #section-three .swiper-slide .title i {
+    font-size: 30px;
+  }
+
+  #section-three .swiper-slide .text {
+    height: 260px;
+  }
+
+  /* SECTION FOUR */
+
+  #section-four iframe {
+    width: 90vw;
+  }
+}
