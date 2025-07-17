@@ -1,3 +1,9 @@
+@media (max-height: 664px) {
+  #section-one .content-sec-one h2 {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 1199px) {
   /* SECTION ONE */
 

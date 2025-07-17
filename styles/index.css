@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+#section-one .left-content{
+  padding-top: 10%;
+}
+
 #section-one .left-content h1 {
   font-size: 18px;
   color: var(--white);
@@ -291,8 +295,6 @@
 #section-three .swiper-slide .btn-know-more i{
   margin-left: 10px;
 }
-
-
 
 #section-three .action{
   width: 100%;

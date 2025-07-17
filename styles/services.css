@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+#section-one .left-content{
+  padding-top: 15%;
+}
+
 #section-one .left-content {
   color: var(--white);
 }

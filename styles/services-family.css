@@ -20,6 +20,7 @@
 
 #section-one .left-content {
   color: var(--white);
+  padding-top: 10%;
 }
 
 #section-one .left-content span {
