@@ -29,7 +29,7 @@
 }
 
 #section-one .box .contact {
-  height: 190px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,7 +55,8 @@
 }
 
 #section-one .box .social {
-  height: 190px;
+  height: auto;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,6 +79,28 @@
 
 #section-one .box .social ul li{
     margin-top: 10px;
+}
+
+#section-one .box .work {
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#section-one .box .work span{
+    font-weight: 550;
+}
+
+#section-one .box .work p{
+  margin-top: 10px;
+}
+
+#section-one .box .work a{
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 550;
 }
 
 #section-one .right-content form{

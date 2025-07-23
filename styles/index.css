@@ -325,11 +325,11 @@ justify-content: space-between;
 }
 
 #section-four .box {
-  height: 500px;
+  height: auto;
   background: linear-gradient(to top, #0f1436, #2b3675);
   border-radius: 20px;
   width: 100%;
-  padding: 35px;
+  padding: 40px;
   text-align: center;
   color: var(--white);
   display: flex;
